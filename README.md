@@ -1,6 +1,8 @@
 # DocInsight — AI-Powered Document Q&A via RAG Pipeline
 
 Ask questions, get answers grounded in your documents. DocInsight combines smart document chunking with a Retrieval-Augmented Generation (RAG) pipeline built on OpenAI — so the AI answers only from what's in your files, not from the internet or general knowledge.
+Any text-based document can serve as the knowledge source: PDF reports, policy frameworks, contracts, meeting transcripts, research papers, podcast transcripts, internal guidelines, compliance documents, or product manuals. If it can be read as text, DocInsight can index it and answer questions from it.
+Critically, DocInsight works across multiple documents simultaneously. You load several files into a single knowledge base — a PDF, a transcript, an internal report — and then ask any question. The system searches across all of them at once, finds the most relevant sections regardless of which file they came from, and synthesises a single grounded answer. No need to search each document separately or remember which file contains what.
 
 ---
 
